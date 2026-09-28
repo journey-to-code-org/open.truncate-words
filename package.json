@@ -1,0 +1,36 @@
+{
+  "name": "@journey-to-code/open-truncate-words",
+  "version": "1.0.0",
+  "description": "Dependency-free helpers for truncating text by word or character count.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "npm test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "truncate",
+    "text",
+    "words",
+    "ellipsis",
+    "string"
+  ],
+  "license": "MIT",
+  "sideEffects": false
+}
